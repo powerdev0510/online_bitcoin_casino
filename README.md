@@ -49,6 +49,3 @@ with your own MYSQL username and password
 ## Disclaimer
 This casino is just a prototype, and is probably not secure. If you're interested in actually running a Bitcoin casino, I recommend you write your own software.
 Besides, this is written in PHP, and is slow as hell.
-
-Interested in helping me finish this?
-ronensinger17@gmail.com
