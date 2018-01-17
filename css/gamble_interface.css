@@ -1,0 +1,108 @@
+#gamble_interface {
+  background-color: #1f1f1f;/* #333 */
+  margin: 75px 0;
+  display: inline-block;
+  border: 25px solid #1f1f1f;
+  border-bottom: 10px solid #1f1f1f;
+}
+
+#gamble_interface input {
+  font-family: "Roboto";
+  min-width: 200px;
+  min-height: 60px;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  color: white;
+  display: inline-block;
+  background-color: #4CAF50;
+}
+
+#gamble_interface input:focus {
+  -webkit-box-shadow:inset 0px 0px 0px 3px white;
+  -moz-box-shadow:inset 0px 0px 0px 3px white;
+  box-shadow:inset 0px 0px 0px 3px white;
+}
+
+#gamble_interface input:disabled {
+  cursor: not-allowed;
+  background-color: rgba(76,175,80,0.5);
+}
+
+#balance input:disabled {
+  cursor: not-allowed;
+  background-color: #7f8c8d;
+}
+
+#gamble_interface input, #gamble_interface label {
+  display: block;
+}
+
+#gamble_interface div {
+  display: inline-block;
+  padding: 10px;
+}
+
+#gamble_interface br {
+  display: block;
+  margin: 10px 0;
+}
+
+#gamble_interface #gray_overlay {
+  background-color: #7f8c8d;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 90%;
+}
+
+#gamble_interface #gray_overlay input {
+  min-width: 175px;
+}
+
+#gamble_interface button {
+  font-family: "Roboto";
+  border: 0;
+  outline: 0;
+  min-width: 90%;
+  min-height: 60px;
+  margin-left: -3px;
+  border-radius: 0;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+
+#gamble_interface #gray_overlay button {
+  background-color: #4CAF50;
+  min-width: 175px;
+  cursor: pointer;
+  border: 3px white dashed
+}
+
+#gamble_interface button:hover {
+  background-color: #4CAF50;
+}
+
+.margin_r {
+  border-right: 1px white solid;
+}
+
+.vertical_line{
+  height: 60px;
+  width: 1px;
+  background: #000;
+  display: inline;
+}
+
+#gamble_interface label {
+  margin-bottom: 15px;
+}
+
+#gamble_interface input::-webkit-input-placeholder {
+  color: white;
+}
+
+#gamble_interface input::-moz-placeholder {
+  color: white;
+}

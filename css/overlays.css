@@ -1,0 +1,322 @@
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  background-color: rgba(17,17,17, 0.8);
+  display: none;
+}
+
+.overlay > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close:before {
+  content: '✕';
+  margin-right: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  font-size: 48px;
+}
+
+.overlay br {
+  margin: 0;
+}
+
+/* Deposit */
+
+#deposit_overlay {
+  background-color: #7f8c8d;
+  border: 50px solid #7f8c8d;
+  display: none;
+}
+
+#deposit_overlay form {
+  margin: 0;
+}
+
+#deposit_overlay #user_deposit_address {
+  background-color: black;
+  padding: 10px;
+}
+
+#deposit_overlay table {
+  text-align: center;
+}
+
+#deposit_overlay table thead tr th {
+  padding: 10px 25px;
+  font-weight: 300;
+}
+
+#deposit_overlay table tbody tr td a {
+  color: blue;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+/* Withdraw */
+
+#withdraw_overlay {
+  background-color: #7f8c8d;
+  border: 50px solid #7f8c8d;
+  display: none;
+}
+
+#withdraw_overlay form {
+  margin: 0;
+}
+
+#withdraw_overlay input {
+  font-family: "Roboto";
+  min-width: 300px;
+  min-height: 60px;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  color: white;
+  display: block;
+  margin: 25px 0;
+  background-color: #4CAF50;
+}
+
+#withdraw_overlay #withdraw_address {
+  background-color: black;
+}
+
+#withdraw_overlay input:focus, #withdraw_overlay #withdraw_address:focus {
+  -webkit-box-shadow:inset 0px 0px 0px 3px white;
+  -moz-box-shadow:inset 0px 0px 0px 3px white;
+  box-shadow:inset 0px 0px 0px 3px white;
+}
+
+#withdraw_overlay button {
+  font-family: "Roboto";
+  border: 0;
+  outline: 0;
+  min-width: 90%;
+  min-height: 60px;
+  margin-left: -3px;
+  border-radius: 0;
+  background-color: #e74c3c;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#withdraw_overlay button:hover {
+  background-color: white;
+  color: #e74c3c;
+}
+
+#withdraw_overlay button:active {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* Provably Fair */
+
+#provably_fair_overlay {
+  background-color: #7f8c8d;
+  border: 50px solid #7f8c8d;
+  display: none;
+}
+
+#provably_fair_overlay form {
+  margin: 0;
+}
+
+#provably_fair_overlay h1 {
+  font-weight: 200;
+}
+
+#provably_fair_overlay input {
+  font-family: "Roboto";
+  min-width: 300px;
+  min-height: 60px;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  color: white;
+  margin: 25px 0;
+  padding: 0 20px;
+  background-color: #4CAF50;
+}
+
+#provably_fair_overlay input:focus {
+  -webkit-box-shadow:inset 0px 0px 0px 3px white;
+  -moz-box-shadow:inset 0px 0px 0px 3px white;
+  box-shadow:inset 0px 0px 0px 3px white;
+}
+
+#provably_fair_overlay button {
+  font-family: "Roboto";
+  border: 0;
+  outline: 0;
+  min-width: 200px;
+  min-height: 60px;
+  margin-left: -3px;
+  border-radius: 0;
+  background-color: #e74c3c;
+  color: white;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+#provably_fair_overlay button:hover {
+  background-color: white;
+  color: #e74c3c;
+}
+
+#provably_fair_overlay button:active {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* Invest */
+#invest_in_house_overlay {
+  background-color: #7f8c8d;
+  border: 50px solid #7f8c8d;
+  display: none;
+}
+
+#invest_in_house_overlay h1 {
+  font-weight: 200;
+}
+
+#invest_in_house_overlay input {
+  font-family: "Roboto";
+  min-width: 300px;
+  min-height: 60px;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+}
+
+#invest_in_house_overlay input:focus {
+  -webkit-box-shadow:inset 0px 0px 0px 3px white;
+  -moz-box-shadow:inset 0px 0px 0px 3px white;
+  box-shadow:inset 0px 0px 0px 3px white;
+}
+
+#invest_in_house_overlay button {
+  font-family: "Roboto";
+  border: 0;
+  outline: 0;
+  min-width: 90%;
+  min-height: 60px;
+  margin-top: 25px;
+  border-radius: 0;
+  color: white;
+  cursor: pointer;
+}
+
+#submit_investment {
+  background-color: #4CAF50;
+}
+
+#submit_investment:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+
+#submit_investment:active {
+  background-color: #4C9950;
+  color: white;
+}
+
+#invest_in_house_overlay input::-webkit-input-placeholder {
+  color: white;
+}
+
+#invest_in_house_overlay input::-moz-placeholder {
+  color: white;
+}
+
+#invest_in_house_overlay button {
+  display: block;
+}
+
+/* Divest */
+#divest_from_house_overlay {
+  background-color: #7f8c8d;
+  border: 50px solid #7f8c8d;
+  display: none;
+}
+
+#divest_from_house_overlay h1 {
+  font-weight: 200;
+}
+
+#divest_from_house_overlay input {
+  font-family: "Roboto";
+  min-width: 300px;
+  min-height: 60px;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+}
+
+#divest_from_house_overlay input:focus {
+  -webkit-box-shadow:inset 0px 0px 0px 3px white;
+  -moz-box-shadow:inset 0px 0px 0px 3px white;
+  box-shadow:inset 0px 0px 0px 3px white;
+}
+
+#divest_from_house_overlay button {
+  font-family: "Roboto";
+  border: 0;
+  outline: 0;
+  min-width: 90%;
+  min-height: 60px;
+  margin-top: 25px;
+  border-radius: 0;
+  color: white;
+  cursor: pointer;
+}
+
+#submit_divestment {
+  background-color: #e74c3c;
+}
+
+#submit_divestment:hover {
+  background-color: white;
+  color: #e74c3c;
+}
+
+#submit_divestment:active {
+  background-color: #c0392b;
+  color: white;
+}
+
+#divest_from_house_overlay input::-webkit-input-placeholder {
+  color: white;
+}
+
+#divest_from_house_overlay input::-moz-placeholder {
+  color: white;
+}
+
+#divest_from_house_overlay button {
+  display: block;
+}

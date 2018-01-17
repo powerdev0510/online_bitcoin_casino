@@ -1,0 +1,61 @@
+html {
+  font-family: "Roboto";
+  background-color: #1f1f1f;
+  color: white;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  background-size: cover;
+}
+
+nav {
+  background-color: #1f1f1f;/* #333 */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  overflow: auto;
+}
+
+nav li {
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+nav ul li:hover {
+  background-color: #4CAF50;/*#111; */
+}
+
+#login_link, #sign_up_link, #logout_link, #greeting, #fair, #deposit, #withdraw {
+  cursor: pointer;
+  float: right;
+}
+
+#greeting {
+  cursor: initial;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#user_data {
+  display: none;
+}
+
+#greeting:hover {
+  background-color: #333;
+}
+
+#deposit {
+  text-align: center;
+  margin: auto;
+}

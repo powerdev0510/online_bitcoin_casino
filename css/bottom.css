@@ -1,0 +1,162 @@
+#bottom_nav ul {
+  background-color: #1f1f1f;
+  margin: 0;
+}
+
+#bottom_nav li {
+  display: inline-block;
+  padding: 20px 75px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0 -5px;
+}
+
+#bottom_nav li:hover {
+  background-color: #111;
+}
+
+#bottom_nav .widget_selected {
+  background-color: #111;
+}
+
+/* Invest */
+#invest {
+  display: none;
+}
+
+#invest {
+  background-color: #1f1f1f;
+}
+
+#invest table {
+  font-weight: 300;
+  border-collapse: collapse;
+}
+
+#invest table thead tr th {
+  padding: 10px 50px;
+  font-weight: 300;
+  background-color: #1f1f1f;
+}
+
+#invest table tbody tr td {
+  padding: 10px 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#invest button {
+  font-family: "Roboto";
+  border: 0;
+  outline: 0;
+  min-width: 200px;
+  min-height: 60px;
+  border-radius: 0;
+  color: white;
+  cursor: pointer;
+}
+
+#invest #invest_invest {
+  background-color: #4CAF50;
+}
+
+#invest #invest_divest {
+  background-color: #e74c3c;
+}
+
+#invest #invest_invest:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+
+#invest #invest_invest:active {
+  background-color: #4C9950;
+  color: white;
+}
+
+#invest #invest_divest:hover {
+  background-color: white;
+  color: #e74c3c;
+}
+
+#invest #invest_divest:active {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* My Bets */
+#my_bets {
+  display: none;
+}
+
+#my_bets {
+  padding-top: 10px;
+  background-color: #1f1f1f;
+}
+
+#my_bets table {
+  font-weight: 300;
+  border-collapse: collapse;
+}
+
+#my_bets table thead tr th {
+  padding: 10px 50px;
+  font-weight: 300;
+  background-color: black;
+}
+
+#my_bets table tbody tr td {
+  padding: 10px 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* All Bets */
+#all_bets {
+  padding-top: 10px;
+  background-color: #1f1f1f;
+}
+
+#all_bets table {
+  font-weight: 300;
+  border-collapse: collapse;
+}
+
+#all_bets table thead tr th {
+  padding: 10px 50px;
+  font-weight: 300;
+  background-color: black;
+}
+
+#all_bets table tbody tr td {
+  padding: 10px 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Stats */
+#stats {
+  display: none;
+}
+
+#stats {
+  padding-top: 10px;
+  background-color: #1f1f1f;
+}
+
+#stats table {
+  font-weight: 300;
+  border-collapse: collapse;
+}
+
+#stats table thead tr th {
+  padding: 10px 50px;
+  font-weight: 300;
+  background-color: black;
+}
+
+#stats table tbody tr td {
+  padding: 10px 0;
+  font-weight: 300;
+  text-align: center;
+}

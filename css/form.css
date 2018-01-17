@@ -1,0 +1,48 @@
+#sign_up_popup input, #login_popup input {
+  font-family: "Roboto";
+  min-width: 300px;
+  min-height: 60px;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  color: white;
+  display: block;
+  margin: 25px 0;
+}
+
+#sign_up_popup button, #login_popup button {
+  font-family: "Roboto";
+  border: 0;
+  outline: 0;
+  min-width: 300px;
+  min-height: 60px;
+  border-radius: 0;
+  background-color: #1f1f1f;/* #333 */
+  color: white;
+}
+
+#sign_up_popup button:hover, #login_popup button:hover {
+  background-color: #4CAF50;
+}
+
+.form_clicked {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.form_clicked::-webkit-input-placeholder {
+  color: white;
+}
+
+.form_clicked::-moz-placeholder {
+  color: white;
+}
+
+#sign_up_popup {
+  display: none;
+}
+
+#login_popup {
+  display: none;
+}
